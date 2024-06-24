@@ -2,22 +2,23 @@ import React, { useState, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 
 import { FaWhatsapp } from "react-icons/fa";
-import { SiGmail } from "react-icons/si";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaSquareInstagram } from "react-icons/fa6"; 
 import { FaLocationDot } from "react-icons/fa6";
 
 import backgroundImage1 from '../assects/my/body1.jpg';
-import backgroundImage3 from '../assects/my/bg3.jpeg';
+import backgroundImage3 from '../assects/my/bg1.jpg';
 import backgroundImage4 from '../assects/my/body3.jpg';
 import backgroundImage5 from '../assects/my/body4.webp';
+import backgroundImage6 from '../assects/my/bg2.jpg';
+import backgroundImage2 from '../assects/my/bg3.jpg';
 
 const email = 'mosesnirupan@gmail.com';
 const phoneNumber = '+94779549474';
 
 const Home = () => {
   const [currentBgIndex, setCurrentBgIndex] = useState(0);
-  const backgroundImages = [backgroundImage1, backgroundImage3,backgroundImage4,backgroundImage5];
+  const backgroundImages = [backgroundImage1, backgroundImage3,backgroundImage4,backgroundImage5,backgroundImage2,backgroundImage6];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -28,7 +29,7 @@ const Home = () => {
   }, [backgroundImages.length]);
 
   return (
-    <div id='home'>
+    <div id='#home'>
       <div
         className="bg-cover bg-center text-white w-auto h-auto"
         style={{ backgroundImage: `url(${backgroundImages[currentBgIndex]})` }}
@@ -70,9 +71,7 @@ const Home = () => {
               <a href='https://maps.app.goo.gl/sZquw1GYvKmDXGpE9'>
                 <FaLocationDot className='border border-gray-400 w-8 h-6 md:w-12 md:h-10 md:pt-1 md:pb-1 rounded shadow-md shadow-orange-400 hover:bg-gradient-to-r from-orange-400 to-pink-600' />
               </a>
-              <a href={`mailto:${email}`}>
-  <SiGmail className='border border-gray-400 w-8 h-6 md:w-12 md:h-10 md:pt-1 md:pb-1 rounded shadow-md shadow-orange-400 hover:bg-gradient-to-r from-orange-400 to-pink-600' />
-  </a>
+              
             </div>
           </div>
         </div>
