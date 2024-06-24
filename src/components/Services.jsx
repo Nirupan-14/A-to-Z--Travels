@@ -23,7 +23,7 @@ const Services = () => {
               <p className='font-bold'>Only 16,000 from Arugam Bay to Kumana</p>
               <p className='font-bold'>Only 17,000 from Whisky Point to Kumana</p>
             </div>
-            <div className='pb-4 lg:pt-6'>
+            <div className='pb-4 lg:pt-8'>
               <a href='#contact'>
                 <button className='rounded pb-2 text-white pt-2 pl-10 pr-10 bg-[#638889] font-semibold text-xl transition ease-in-out delay-150 hover:text-black hover:-translate-y-1 hover:scale-110 hover:bg-[#9DBC98] hover:font-bold duration-300' tabIndex='0'>
                   Contact us
