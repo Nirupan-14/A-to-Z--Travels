@@ -63,7 +63,7 @@ const Services = () => {
             <p className='pb-2'>
               Experience the Beauty of Nature with Our Lagoon Safari!
             </p>
-            <p className='font-bold  '>Only 1500 per person.</p>
+            <p className='font-bold  '>Only 2000 per person.</p>
             <div className='pb-4 lg:pt-20'>
               <a href='#contact'>
                 <button className='rounded pb-2 text-white pt-2 pl-10 pr-10 bg-[#638889] font-semibold text-xl transition ease-in-out delay-150 hover:text-black hover:-translate-y-1 hover:scale-110 hover:bg-[#9DBC98] hover:font-bold duration-300' tabIndex='0'>
